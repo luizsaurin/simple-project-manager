@@ -1,7 +1,7 @@
 {
-  "name": "understanding-typescript",
+  "name": "simple-project-manager",
   "version": "1.0.0",
-  "description": "Understanding TypeScript Course Setup",
+  "description": "Simple project manager",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -9,9 +9,10 @@
   },
   "keywords": [
     "typescript",
-    "course"
+    "javascript",
+	"nodejs"
   ],
-  "author": "Maximilian Schwarzmüller",
+  "author": "Luiz Saurin",
   "license": "ISC",
   "devDependencies": {
     "lite-server": "^2.5.4"
