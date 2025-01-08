@@ -10,20 +10,14 @@ Install npm packages
 npm install
 ```
 
-Build
-
-```
-tsc
-```
-
-Run server
+Run dev server
 
 ```
 npm start
 ```
 
-Access the page via the URL
+By default, it will run a server for development. To run using the production configuration, update the build script inside package.json to:
 
 ```
-localhost:3000
+"build": "webpack --config webpack.config.prod.js"
 ```

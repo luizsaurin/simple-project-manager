@@ -1,5 +1,5 @@
-import { ProjectStatus } from "../enum/projectStatus.js"
-import { Project } from "../model/project.js"
+import { ProjectStatus } from "../enum/projectStatus"
+import { Project } from "../model/project"
 
 type Listener<T> = (items: T[]) => void
 
