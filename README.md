@@ -10,10 +10,10 @@ Install npm packages
 npm install
 ```
 
-Init app.ts listener
+Build
 
 ```
-tsc -w
+tsc
 ```
 
 Run server
